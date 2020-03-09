@@ -1,0 +1,48 @@
+img {
+  max-width: 100%; }
+
+.chart {
+  width: 50%; }
+
+.chart-list li p {
+  text-align: left; }
+
+#section5 h4 {
+  background: #add7e4; }
+
+.baner .baner {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto; }
+.baner:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  border: solid 2px #d25151;
+  -webkit-transition: 0.1s 0.01s;
+  transition: 0.1s 0.01s;
+  -webkit-box-shadow: 10px 10px 17px -8px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 17px -8px rgba(0, 0, 0, 0.75); }
+
+@media (max-width: 425px) {
+  #section1 h1 {
+    font-size: 16px !important;
+    line-height: 1.5 !important; }
+
+  .chart {
+    width: 100%; }
+
+  #section3 img {
+    width: 100%; }
+  #section3 a {
+    font-size: 20px !important; }
+  #section3 h3 {
+    font-size: 16px !important; } }
+
+/*# sourceMappingURL=main.css.map */
